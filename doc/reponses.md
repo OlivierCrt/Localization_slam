@@ -25,3 +25,16 @@ On voit :
 - Centre du cercle de traj
 
 ### 3.2 
+
+T : (temps)
+X : (mesures bruitées)
+X : (Etat caché à estimer, coord réelles, vitesse, coo des amers)
+
+### 3.3
+
+mX0 :  Le vecteur d 'état initial. Position et vitesse initiale estimés et pos estimées des amers.
+Po (PX0) : C est la matrice de covariance du vecteur d'état initial. Incertitude
+Qw : C est la matrice de cov du modele dyn du robot
+Rv covariance bruit de mesure
+
+### 3.4
